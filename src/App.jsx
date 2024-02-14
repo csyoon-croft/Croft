@@ -14,6 +14,7 @@ import SingleSales from "./pages/SingleSales";
 import SingleSalesNYear from "./pages/SingleSalesNYear";
 import SingleResource from "./pages/SingleResource";
 import SingleReport from "./pages/SingleReport";
+import SingleEnergyUsage from "./pages/SingleEnergyUsage"
 import Measurement from "./component/Charts/Measurement/Measurement";
 
 const queryClient = new QueryClient();
@@ -42,6 +43,7 @@ function App() {
           />
           <Route path="/single-resource" element={<SingleResource />} />
           <Route path="/single-report" element={<SingleReport />} />
+          <Route path="/single-energy-usage" element={<SingleEnergyUsage />} />
         </Route>
       </Routes>
     </QueryClientProvider>
